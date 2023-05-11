@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+*{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    scroll-padding-top: 3rem;
+    list-style: none;
+    text-decoration: none;
+}
+::-webkit-scrollbar{
+    display: none;
+} 
+img{
+    width: 100%;
+}
+section {
+    padding: 4.5rem 0 3rem;
+}
+.container{
+    max-width: 1068px;
+    margin-left: auto;
+    margin-right: auto;
+}
+header{
+    display: block;
+    width: 100%;
+    background-color: white;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    box-shadow: 2px 2px 18px #0e343626;
+}
+.nav{
+    display: flex;
+    align-items: center;
+}
+.navbar{
+    display: flex;
+}
+.navbar a{
+    justify-content: center;
+    padding: 8px 17px;
+    color: #3B566E ;
+    font-size: 13px;
+    text-transform: uppercase;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+.navbar a:hover {
+    color: #ffc107;
+    transition: 0.5s all linear;
+}
+.home {
+    margin-top: 80px;
+    background-image: url(/assets/img/homeCafe.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 440px;
+    border-radius: 16px;
+    display: flex;
+    align-items: center;
+}
+.home-text{
+    padding-left: 35px;
+
+}
+.home-text h1 {
+    color: black;
+    font-size: 34px;
+    margin-bottom: 16px;
+}
+
+.shop {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(240px, auto));
+    gap: 2.4rem;
+}
+.shop .box{
+    padding: 20px;
+    background-color: white;
+    box-shadow: 2px 2px 18px #0e343626;
+    text-align: center;
+    border-radius: 2rem;
+}
+.shop .box:hover{
+    background-color: #ffb700;
+    color: rgb(0, 0, 0);
+    transition: 0.5s all linear;
+}
+.shop .box .bx {
+    padding: 10px;
+    border-radius: 50%;
+    background: #f6f6fe;    
+    color: #fbdb1c;
+    font-size: 16px ;
+}
+.btn-shop{
+    padding: 10px 22px;
+    font-size: 13px;
+    text-decoration: none;
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+}
+.wrapper .button{
+    display: inline-block;
+    height: 60px;
+    width: 60px;
+    margin: 0 5px;
+    overflow: hidden;
+    background: #ffc107;
+    border-radius: 50px;
+    cursor: pointer;
+    box-shadow: 2px 2px 18px #0e343626;
+  }
+  .wrapper .button .icon{
+    display: inline-block;
+    height: 60px;
+    width: 60px;
+    text-align: center;
+    border-radius: 50px;
+    box-sizing: border-box;
+    line-height: 60px;
+  }
+
+  .img-table{
+        width: 36px;
+        height: 36px;
+        object-fit: cover;
+    }
+  
